@@ -85,11 +85,11 @@ public class authentication {
 			System.out.println("Signup Successful");
 
 
-			for (int i = 0; i < usernamearr.size(); i++) {
-				System.out.print(usernamearr.get(i)+" ");
-				System.out.println(passwordarr.get(i));
-				System.out.println(numberarr.get(i));
-			}
+			// for (int i = 0; i < usernamearr.size(); i++) {
+			// 	System.out.print(usernamearr.get(i)+" ");
+			// 	System.out.println(passwordarr.get(i));
+			// 	System.out.println(numberarr.get(i));
+			// }
 		}
 
 		System.out.println("Please Login to continue");
