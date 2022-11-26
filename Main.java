@@ -80,11 +80,15 @@ public void everything() {
 			}
 			System.out.println("\nContinue : (y/n)");
 			wantToContinue = sc.next().charAt(0);
+			if(wantToContinue == 'n')
+				System.exit(0);
 			if (!(wantToContinue == 'y' || wantToContinue == 'Y' || wantToContinue == 'n'
 					|| wantToContinue == 'N')) {
 				System.out.println("Invalid Option");
 				System.out.println("\nContinue : (y/n)");
 				wantToContinue = sc.next().charAt(0);
+				if(wantToContinue == 'n')
+					System.exit(0);
 			}
 
 		} while (wantToContinue == 'y' || wantToContinue == 'Y');
